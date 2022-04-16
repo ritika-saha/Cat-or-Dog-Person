@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hammersmith One', sans-serif;
+    
+}
+
+.title{
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 250%;
+    position: absolute;
+    left: 32%;
+}
+
+body{
+    background-color: rgb(210, 255, 227);
+}
+.container{
+
+  
+
+    width: 500px;
+    height: 530px;
+    position: absolute;
+    left: 35%;
+    top: 11%;
+    font-size: 10px;
+    background-color: rgb(194, 194, 194);
+    border-radius: 20px;
+}
+.question{
+    padding: 6%;
+    font-weight: bolder;
+}
+.option{
+    margin: 4% 0 10% 0%;
+    width: 100%;
+    font-size: 20px;
+}
+
+.cat{
+    margin-top: 3%;
+    background-color: rgb(198, 255, 255);
+    padding: 6%;
+    transition: 0.5s;
+}
+
+.cat:hover{
+    cursor: pointer;
+    background-color: rgb(94, 255, 255);
+}
+
+.dog{
+
+    background-color: rgb(255, 201, 210);
+    padding: 6%;
+    transition: 0.5s;
+}
+
+.dog:hover{
+    background-color: rgb(255, 133, 153);
+    cursor: pointer;
+}
+
+.btn{
+    
+    padding: 3%;
+    display: flex;
+    justify-content: space-around;
+}
+
+button{
+    padding: 10px 20px ;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    transition: 0.5s;
+    border-radius: 12px;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+.score{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1%;
+    font-size: 15px;
+}
+
+.modal{
+    position: absolute;
+    left: 45%;
+    top: 43%;
+    display:none;
+}
+
+.modalContainer input{
+    max-width: 100%;
+        padding: 18px;
+        font-size: 130%;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background: none;
+        background-color: rgba(255, 255, 255, 0.6);
+        border-radius: 10px;
+        color:red;
+        border-bottom: solid 3px red;
+        margin-bottom: 7px;
+}
+
+.result
+{
+    display: none;
+    width: 500px;
+    height: 530px;
+    position: absolute;
+    left: 35%;
+    top: 11%;
+    font-size: 15px;
+    background-image: linear-gradient(to right, rgb(254, 107, 107),rgb(255, 200, 99),rgb(253, 253, 115),rgb(96, 174, 96),rgb(117, 117, 252),rgb(185, 106, 241),rgb(240, 157, 240));
+    border-radius: 20px;
+}
+
+.resultpic{
+    width: 500px;
+    height: 350px;
+}
+
+
+
+.resultpara{
+    padding: 15px;
+}
+
+.result>button{
+    margin-top: 10px;
+   margin-left: 90px;
+}
